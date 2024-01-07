@@ -4,6 +4,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
+import catImg from "../images/cat1.jpeg";
 
 const ActionAreaCard = () => {
   return (
@@ -12,7 +13,7 @@ const ActionAreaCard = () => {
         <CardMedia
           component="img"
           height="140"
-          image="/static/images/cards/Cat03.jpg"
+          image={catImg}
           alt="cat"
         />
         <CardContent>

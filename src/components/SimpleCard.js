@@ -1,9 +1,9 @@
 import React from 'react';
 
-const SimpleCard = ({ imageUrl }) => {
+const SimpleCard = ({ image }) => {
   return (
     <div className="card">
-      <img src={imageUrl} alt="Card" />
+      <img src={image} alt="Card" />
     </div>
   );
 };
