@@ -1,9 +1,9 @@
 import React from 'react';
 import SimpleCard from "./SimpleCard";
 import "./SimpleCardSection.css";
-import cat1 from "../images/cat1.jpeg";
-import cat2 from "../images/cat2.jpeg";
-import cat3 from "../images/cat3.jpeg";
+import cat1 from "./../images/cat1.jpeg";
+import cat2 from "./../images/cat2.jpeg";
+import cat3 from "./../images/cat3.jpeg";
 
 const SimpleCardSection = () => {
   const cardData = [
