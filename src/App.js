@@ -9,7 +9,8 @@ import {
   NavDropdown,
 } from "react-bootstrap";
 import {
-  BrowserRouter as Router,
+  // BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   Route,
 } from "react-router-dom";
@@ -20,12 +21,11 @@ import MyNavbar from './components/Navbar/Navigation';
 function App() {
   return (
     <div className="App">
-
-      <MyNavbar />
       
       <Router>
+      <MyNavbar />
         <Routes>
-            <Route exact path="/workstudy" element={<Home />} />
+            <Route exact path="/" element={<Home />} />
             <Route path="/blogs" element={<Blogs />} />
         </Routes>
       </Router>
