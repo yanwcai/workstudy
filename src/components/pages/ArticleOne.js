@@ -1,14 +1,15 @@
 import React from "react";
 import HeroSection from '../HeroSection';
 import Footer from "../Footer";
-
-const About = () => {
+import "../Footer.css";
+ 
+const ArticleOne = () => {
     return (
         <>
-            <HeroSection title={"About Page"} description={"About Page Description"}/>
+            <HeroSection title={"Article One"} description={"Sample Article One"}/>
             <Footer />
         </>
     );
 };
  
-export default About;
+export default ArticleOne;

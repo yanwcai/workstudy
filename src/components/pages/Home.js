@@ -8,7 +8,7 @@ import "../Footer.css";
 const Home = () => {
     return ( 
         <>
-            <HeroSection title="Home Page Title" description={"Home Page Description"}/>
+            <HeroSection title="Home Page" description={"Home Page Description"}/>
             <SimpleCardSection />
             <Footer />
 

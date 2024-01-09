@@ -1,8 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 
-
-
 function Footer() {
   return (
     <div className='footer-container'>
@@ -22,7 +20,7 @@ function Footer() {
               <i class='fab fa-typo3' />
             </Link>
           </div>
-          <small class='website-rights'>© 2023</small>
+          <small class='website-rights'>© {new Date().getFullYear()}</small>
           <div class='social-icons'>
             
             <Link

@@ -5,6 +5,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 import catImg from "../images/cat1.jpeg";
+import Link from '@mui/material/Link';
 
 const ActionAreaCard = () => {
   return (
@@ -17,18 +18,18 @@ const ActionAreaCard = () => {
           alt="cat"
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
-            Cat
+          <Typography gutterBottom variant="h5">
+            <Link href="#article_one" underline="none">
+              Article One
+            </Link>
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            Cat Wiki
+            Article One Content Brief
           </Typography>
         </CardContent>
       </CardActionArea>
     </Card>
   );
 }
-
-
 
 export { ActionAreaCard };

@@ -2,13 +2,13 @@ import React from "react";
 import HeroSection from '../HeroSection';
 import Footer from "../Footer";
 
-const About = () => {
+const Contact = () => {
     return (
         <>
-            <HeroSection title={"About Page"} description={"About Page Description"}/>
+            <HeroSection title={"Contact Page"} description={"Contact Page Description"}/>
             <Footer />
         </>
     );
 };
  
-export default About;
+export default Contact;

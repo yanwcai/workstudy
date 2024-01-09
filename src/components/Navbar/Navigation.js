@@ -1,6 +1,4 @@
 import React from "react";
-// import { Nav, NavLink, NavMenu } from "./NavbarElements";
- 
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -16,25 +14,21 @@ function MyNavbar() {
         <Navbar.Collapse id="basic-navbar-nav">
 
           <Nav className="me-auto">
-            <Nav.Link as={Link} to="about">About</Nav.Link>
-            <Nav.Link as={Link} to="blogs">Blogs</Nav.Link>
-
-            <NavDropdown title="Content" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Content One</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Content Two
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Content Three</NavDropdown.Item>
-              {/* <NavDropdown.Divider /> */}
+            
+            <NavDropdown title="About" id="basic-nav-dropdown">
+              <NavDropdown.Item href="#action/3.1">About A</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">About B</NavDropdown.Item>
             </NavDropdown>
+
+            <Nav.Link as={Link} to="blogs">Blogs</Nav.Link>
+            <Nav.Link as={Link} to="team">Team</Nav.Link>
+            <Nav.Link as={Link} to="contact">Contact</Nav.Link>
 
             <NavDropdown title="Community" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Events</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Learning Community
               </NavDropdown.Item>
-              {/* <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item> */}
-              {/* <NavDropdown.Divider /> */}
             </NavDropdown>
 
           </Nav>
