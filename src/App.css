@@ -5,6 +5,11 @@
   font-family: 'PT Sans', sans-serif;
 }
 
+.div {
+  margin: 0;
+  padding: 0;
+}
+
 .home,
 .blogs {
   display: flex;

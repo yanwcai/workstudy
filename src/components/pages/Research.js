@@ -5,14 +5,14 @@ import Footer from "../Footer";
 import "../Footer.css";
 
  
-const Blogs = () => {
+const Research = () => {
     return (
         <>
-            <HeroSection title={"Blog Page"} description={"Blog Page Description"}/>
+            <HeroSection title={"Research Page"} description={"Research Page Description"}/>
             <ActionAreaCard />
             <Footer />
         </>
     );
 };
  
-export default Blogs;
+export default Research;
