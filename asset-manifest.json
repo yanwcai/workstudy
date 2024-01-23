@@ -1,19 +1,22 @@
 {
   "files": {
-    "main.css": "./static/css/main.25052565.css",
-    "main.js": "./static/js/main.2cb7a976.js",
+    "main.css": "./static/css/main.3e0bf8db.css",
+    "main.js": "./static/js/main.acaaccaa.js",
     "static/js/787.37fbe72b.chunk.js": "./static/js/787.37fbe72b.chunk.js",
-    "static/media/cat1.jpeg": "./static/media/cat1.25b1cc0171884a9e5d49.jpeg",
-    "static/media/cat2.jpeg": "./static/media/cat2.949c8526a75133f41f9d.jpeg",
-    "static/media/cat3.jpeg": "./static/media/cat3.73a7259eb9b8eb07bcb2.jpeg",
-    "static/media/profile.jpeg": "./static/media/profile.7a6a6c54279a54d1977c.jpeg",
+    "static/media/SFU_blogimg1.jpeg": "./static/media/SFU_blogimg1.bd3fd589e6fb56ca3237.jpeg",
+    "static/media/SFU_blogimg2.jpeg": "./static/media/SFU_blogimg2.f7fec86cfd1fbd04cce3.jpeg",
+    "static/media/SFU_blogimg4.jpeg": "./static/media/SFU_blogimg4.350e0ddd88df73717f99.jpeg",
+    "static/media/SFU_convocation.jpeg": "./static/media/SFU_convocation.813cb8adc811c74b4a16.jpeg",
+    "static/media/SFU_img1.jpeg": "./static/media/SFU_img1.3806c9508a72cdc1b342.jpeg",
+    "static/media/SFU_blogimg3.jpeg": "./static/media/SFU_blogimg3.deb97726d79cbcae5b45.jpeg",
+    "static/media/blog_img1.jpeg": "./static/media/blog_img1.ce5a50c923327cdee269.jpeg",
     "index.html": "./index.html",
-    "main.25052565.css.map": "./static/css/main.25052565.css.map",
-    "main.2cb7a976.js.map": "./static/js/main.2cb7a976.js.map",
+    "main.3e0bf8db.css.map": "./static/css/main.3e0bf8db.css.map",
+    "main.acaaccaa.js.map": "./static/js/main.acaaccaa.js.map",
     "787.37fbe72b.chunk.js.map": "./static/js/787.37fbe72b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.25052565.css",
-    "static/js/main.2cb7a976.js"
+    "static/css/main.3e0bf8db.css",
+    "static/js/main.acaaccaa.js"
   ]
 }
