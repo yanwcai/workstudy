@@ -14,8 +14,13 @@ import Education from "./components/pages/Education";
 import News from "./components/pages/News";
 import Event from "./components/pages/Event";
 import Partners from "./components/pages/Partners";
-import ArticleOne from "./components/pages/ArticleOne";
+import FeatureBlogPage from "./components/pages/Blogs/FeatureBlogPage";
+import BlogOne from "./components/pages/Blogs/BlogOnePage";
+import BlogTwo from "./components/pages/Blogs/BlogTwoPage";
+import BlogThree from "./components/pages/Blogs/BlogThreePage";
+import BlogFour from "./components/pages/Blogs/BlogFourPage";
 import Navbar from "./components/Navigation_old";
+
 
 function App() {
   return (
@@ -32,7 +37,11 @@ function App() {
             <Route path="/news" element={<News />} />
             <Route path="/event" element={<Event />} />
             <Route path="/partners" element={<Partners />} />
-            <Route path="/article_one" element={<ArticleOne />} />
+            <Route path="/feature_blog" element={<FeatureBlogPage />} />
+            <Route path="/blog_one" element={<BlogOne />} />
+            <Route path="/blog_two" element={<BlogTwo />} />
+            <Route path="/blog_three" element={<BlogThree />} />
+            <Route path="/blog_four" element={<BlogFour />} />
         </Routes>
       </Router>
 

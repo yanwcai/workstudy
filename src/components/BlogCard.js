@@ -4,27 +4,26 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
-import catImg from "../images/cat1.jpeg";
 import Link from '@mui/material/Link';
 
-const ActionAreaCard = () => {
+const ActionAreaCard = ( { title, authors, date, imageURL, link } ) => {
   return (
-    <Card sx={{ maxWidth: 345, padding: "50px"}}>
+    <Card sx={{ maxWidth: 345, padding: "20px", backgroundColor: "#f0f0f0"}}>
       <CardActionArea>
         <CardMedia
           component="img"
           height="140"
-          image={catImg}
-          alt="cat"
+          image={imageURL}
+          alt="card"
         />
         <CardContent>
           <Typography gutterBottom variant="h5">
-            <Link href="#article_one" underline="none">
-              Article One
+            <Link href={link} underline="none" style={{ color: "#831324", fontWeight: "bold"}}>
+              {title}
             </Link>
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            Article One Content Brief
+            {authors} | {date}
           </Typography>
         </CardContent>
       </CardActionArea>

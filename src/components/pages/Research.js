@@ -1,5 +1,5 @@
 import React from "react";
-import { ActionAreaCard } from "../ArticleCard";
+import { ActionAreaCard } from "../BlogCard";
 import HeroSection from '../HeroSection';
 import Footer from "../Footer";
 import "../Footer.css";
