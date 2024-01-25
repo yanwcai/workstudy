@@ -1,6 +1,6 @@
 import React from "react";
-import HeroSection from '../HeroSection';
-import Footer from "../Footer";
+import HeroSection from '../../../components/HeroSection';
+import Footer from "../../../components/Footer";
 
 const About = () => {
     return (

@@ -1,8 +1,8 @@
 import React from "react";
-import { ActionAreaCard } from "../BlogCard";
-import HeroSection from '../HeroSection';
-import Footer from "../Footer";
-import "../Footer.css";
+import { ActionAreaCard } from "../../BlogCard";
+import HeroSection from '../../../components/HeroSection';
+import Footer from "../../../components/Footer";
+import "../../Footer.css";
 
  
 const Research = () => {

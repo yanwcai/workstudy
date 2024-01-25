@@ -17,7 +17,7 @@ function MyNavbar() {
     // bg-body-tertiary 
     <Navbar className="navbar navbar-expand-lg m-0" style={{backgroundColor: '#A6192E', color: 'white'}}> 
       <Container fluid className="p-0" style={{backgroundColor: '#A6192E'}}>
-        <Navbar.Brand as={Link} to="/" style={{ color: 'white', display: 'flex', alignItems: 'center'}}>
+        <Navbar.Brand as={Link} to="#" style={{ color: 'white', display: 'flex', alignItems: 'center'}}>
           <img
             src={Logo}
             alt="Logo"
@@ -33,8 +33,8 @@ function MyNavbar() {
 
           <Nav className="me-auto" style={{backgroundColor: '#A6192E'}}> 
             
-            <NavDropdown title="About" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#people" id="submenu">People</NavDropdown.Item>
+            <NavDropdown as={Link} to="#about" title="About" id="basic-nav-dropdown" >
+              <NavDropdown.Item as={Link} to="/about/people" id="submenu">People</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#values" id="submenu">Values</NavDropdown.Item>
               <NavDropdown.Divider />

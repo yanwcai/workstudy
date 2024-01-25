@@ -1,0 +1,26 @@
+.side-navbar {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333; /* Change background color as needed */
+    padding-top: 20px;
+  }
+  
+  .nav-item {
+    padding: 10px;
+  }
+  
+  .nav-link {
+    display: block;
+    color: white; /* Change text color as needed */
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-link:hover {
+    background-color: #555; /* Change hover background color as needed */
+  }
+  

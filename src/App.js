@@ -7,19 +7,19 @@ import {
   Route,
 } from "react-router-dom";
 import Home from "./components/pages/Home";
-import About from "./components/pages/About";
-import Research from "./components/pages/Research";
-import Policy from "./components/pages/Policy";
-import Education from "./components/pages/Education";
-import News from "./components/pages/News";
-import Event from "./components/pages/Event";
+import About from "./components/pages/About/About";
+import Research from "./components/pages/Research/Research";
+import Policy from "./components/pages/Policy/Policy";
+import Education from "./components/pages/Education/Education";
+import News from "./components/pages/News/News";
+import Event from "./components/pages/Events/Event";
 import Partners from "./components/pages/Partners";
 import FeatureBlogPage from "./components/pages/Blogs/FeatureBlogPage";
 import BlogOne from "./components/pages/Blogs/BlogOnePage";
 import BlogTwo from "./components/pages/Blogs/BlogTwoPage";
 import BlogThree from "./components/pages/Blogs/BlogThreePage";
 import BlogFour from "./components/pages/Blogs/BlogFourPage";
-import Navbar from "./components/Navigation_old";
+import Navbar from "./components/Navigation";
 
 
 function App() {

@@ -8,7 +8,7 @@ import Link from '@mui/material/Link';
 
 const ActionAreaCard = ( { title, authors, date, imageURL, link } ) => {
   return (
-    <Card sx={{ maxWidth: 345, padding: "20px", backgroundColor: "#f0f0f0"}}>
+    <Card sx={{ maxWidth: 345, padding: "20px", marginLeft: "20px", backgroundColor: "#f0f0f0"}}>
       <CardActionArea>
         <CardMedia
           component="img"

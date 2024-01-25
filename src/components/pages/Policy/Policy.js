@@ -1,7 +1,7 @@
 import React from "react";
-import HeroSection from '../HeroSection';
-import Footer from "../Footer";
-import "../Footer.css";
+import HeroSection from '../../../components/HeroSection';
+import Footer from "../../../components/Footer";
+import "../../Footer.css";
 
  
 const Policy = () => {
