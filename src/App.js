@@ -20,6 +20,12 @@ import BlogTwo from "./components/pages/Blogs/BlogTwoPage";
 import BlogThree from "./components/pages/Blogs/BlogThreePage";
 import BlogFour from "./components/pages/Blogs/BlogFourPage";
 import Navbar from "./components/Navigation";
+import PeoplePage from "./components/pages/About/People";
+import ValuesPage from "./components/pages/About/Values";
+import FacultyPublicationsPage from "./components/pages/About/FacultyPublications";
+import CorporateProgramsPage from "./components/pages/About/CorporatePrograms";
+import GetInvolvedPage from "./components/pages/About/GetInvolved";
+
 
 
 function App() {
@@ -42,6 +48,12 @@ function App() {
             <Route path="/blog_two" element={<BlogTwo />} />
             <Route path="/blog_three" element={<BlogThree />} />
             <Route path="/blog_four" element={<BlogFour />} />
+            <Route path="/about/people" element={<PeoplePage />} />
+            <Route path="/about/values" element={<ValuesPage />} />
+            <Route path="/about/faculty-publications" element={<FacultyPublicationsPage />} />
+            <Route path="/about/corporate-programs" element={<CorporateProgramsPage />} />
+            <Route path="/about/get-involved" element={<GetInvolvedPage />} />
+
         </Routes>
       </Router>
 

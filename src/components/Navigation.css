@@ -1,6 +1,16 @@
 #basic-nav-dropdown{
   color: white !important;
   font-weight: bold !important;
+  font-family: "Barlow Bold", sans-serif !important;
+}
+
+#submenu {
+  font-weight: bold !important;
+  margin-bottom: 5px;
+}
+
+#submenu:hover {
+  text-decoration: underline; 
 }
 
 /*

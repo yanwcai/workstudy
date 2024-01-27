@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import '../App.css';
 import "./BlogSection.css";
 import blog_img1 from "../images/blog_img1.jpeg";
-import { BlogData, FeatureBlogData } from "../BlogData";
+import { BlogData } from "../BlogData";
 import { ActionAreaCard } from "./BlogCard";
 
 const BlogSection = () => {

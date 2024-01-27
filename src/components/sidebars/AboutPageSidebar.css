@@ -1,26 +1,41 @@
 .side-navbar {
-    height: 100%;
-    width: 200px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: #333; /* Change background color as needed */
-    padding-top: 20px;
-  }
-  
-  .nav-item {
-    padding: 10px;
-  }
-  
-  .nav-link {
-    display: block;
-    color: white; /* Change text color as needed */
-    text-decoration: none;
-    padding: 10px;
-    transition: background-color 0.3s;
-  }
-  
-  .nav-link:hover {
-    background-color: #555; /* Change hover background color as needed */
-  }
+  height:100vh;
+  width: 280px;
+  background-color: #fff;
+  /* box-shadow: 1px 1px 7px rgba(0,0,0,0.15); */
+  transition: all 0.5s ease;
+}
+
+.sidebar-list {
+  list-style-type: none;
+}
+
+.item-box {
+  height: 50px;
+  margin-top:15px;
+}
+
+.item-box:hover {
+  border-left: 7px solid #CC0633;
+  cursor: pointer;
+}
+
+.sidebar-item {
+  display: inline-block;
+  padding:0px 0px 0px 12px;
+  position: relative;
+  top: 5px;
+  font-size: 20px;
+  letter-spacing: 0px;
+  font-family: "Countach Bold", sans-serif;
+  line-height: 38px;
+  color: #831324;
+  font-weight: bold;
+}
+
+.item-link {
+  text-decoration: none;
+  color: inherit; 
+}
+
   
