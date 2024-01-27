@@ -75,15 +75,15 @@ function MyNavbar() {
               <NavDropdown.Divider />
               <NavDropdown.Item as={Link} to="/News/blog" id="submenu">Blog</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/News/announcements" id="submenu">Announcements</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/News/media_mentions" id="submenu">Media Mentions</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/News/subscribe_to_newsletter" id="submenu">Subscribe to Newsletter</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/News/media-mentions" id="submenu">Media Mentions</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/News/subscribe-to-newsletter" id="submenu">Subscribe to Newsletter</NavDropdown.Item>
             </NavDropdown>
 
             <NavDropdown title="Events" id="basic-nav-dropdown">
               <NavDropdown.Item as={Link} to="/events" id="submenu">Events</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item as={Link} to="/events/upcoming_events" id="submenu">Upcoming Events</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/events/past_events" id="submenu">Past Events</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/events/upcoming-events" id="submenu">Upcoming Events</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/events/past-events" id="submenu">Past Events</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/events/seminars" id="submenu">Seminars</NavDropdown.Item>
             </NavDropdown>
 
