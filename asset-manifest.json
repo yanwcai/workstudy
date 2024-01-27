@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.ef9d06c1.css",
+    "main.css": "./static/css/main.6b6e23f8.css",
     "main.js": "./static/js/main.3774d457.js",
     "static/js/787.37fbe72b.chunk.js": "./static/js/787.37fbe72b.chunk.js",
     "static/media/SFU_blogimg5.jpeg": "./static/media/SFU_blogimg5.2cbfa55252f5ec5382ba.jpeg",
@@ -12,12 +12,12 @@
     "static/media/SFU_blogimg3.jpeg": "./static/media/SFU_blogimg3.deb97726d79cbcae5b45.jpeg",
     "static/media/blog_img1.jpeg": "./static/media/blog_img1.ce5a50c923327cdee269.jpeg",
     "index.html": "./index.html",
-    "main.ef9d06c1.css.map": "./static/css/main.ef9d06c1.css.map",
+    "main.6b6e23f8.css.map": "./static/css/main.6b6e23f8.css.map",
     "main.3774d457.js.map": "./static/js/main.3774d457.js.map",
     "787.37fbe72b.chunk.js.map": "./static/js/787.37fbe72b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ef9d06c1.css",
+    "static/css/main.6b6e23f8.css",
     "static/js/main.3774d457.js"
   ]
 }
