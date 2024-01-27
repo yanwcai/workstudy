@@ -13,6 +13,9 @@
   text-decoration: underline; 
 }
 
+#submenu:active {
+  background-color: #CC0633;
+}
 /*
   .nav-links {
     color: white;
